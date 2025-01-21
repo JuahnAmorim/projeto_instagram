@@ -31,29 +31,60 @@ body{
     align-items: center;
 }
 
-.primeiro_quadro{
-    background-color: white;
-    padding: 30px;
+.column{
+    flex-grow: 1;
+    width: 50%;
 }
 
-.primeiro_quadro form{
+.left{
+    background-image: url("../assets/main-foto.png");
+    background-size: 450px;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 600px;
+    margin-bottom: 50px;
+}
+
+.right{
+    padding-left: 20px;
+    height: 600px;
+    align-content: center;
+}
+
+.bloco{
     display: flex;
     flex-direction: column;
-    width: 100%;
-    padding: 20px 0px;
+    background-color: white;
 }
 
-.campo{
-    background-color: #fafafa;
-    margin: 5px 0px;
-    padding-top: 10px;
-    border: #f5f4f4 solid 2px;
+.bloco img{
+    margin: 20px 70px;
 }
 
-.botao{
-    margin-top: 5px;
+.bloco form{
+    display: flex;
+    flex-direction: column;
+    margin-left: 25px;
+    margin-right: 25px;
+    margin-bottom: 30px;
 }
 
-.column_right img{
-    height: 100px;
+.dados{
+    background-color: rgb(247, 247, 247);
+    border: 0.5px solid rgb(226, 226, 226);
+    border-radius: 3px;
+    margin: 5px;
+    padding: 10px;
+}
+
+.entrar{
+    background-color: #3b9ffd;
+    border: none;
+    border-radius: 3px;
+    margin: 5px;
+    margin-bottom: 0px;
+    padding: 8px;
+    color: white;
+    font-weight: bold;
+    font-size: 15px;
 }
