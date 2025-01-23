@@ -115,3 +115,23 @@ body{
     height: 50px;
     margin: 0px 4px;
 }
+
+footer {
+    text-align: center;
+    height: 50px;
+    margin-top: -50px;
+}
+
+footer a{
+    color: black;
+    font-weight: bold;
+    margin-right: 8px;
+}
+
+.text-small{
+    font-size: 12px;
+    font-weight: bold;
+    color: grey;
+    padding-left: 20px;
+    display: inline-block;
+}
