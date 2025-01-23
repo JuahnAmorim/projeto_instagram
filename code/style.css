@@ -135,3 +135,13 @@ footer a{
     padding-left: 20px;
     display: inline-block;
 }
+
+/* Inicio signup */
+
+.container-signup{
+    margin: 0 auto; /* Coloca o item no centro horizontal*/
+    max-width: 400px;
+    min-height: 100%; /* Utiliza a altura completa da tela para colocar no centro */
+    display: flex;
+    align-items: center; /* Coloca o item no centro vertical (so funciona com o display:flex */
+}
