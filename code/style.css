@@ -90,6 +90,7 @@ body{
     color: white;
     font-weight: bold;
     font-size: 15px;
+    cursor: pointer;
 }
 
 .bloco2{
@@ -138,10 +139,77 @@ footer a{
 
 /* Inicio signup */
 
+#wrapper-signup{
+    height: 100vh;
+}
+
 .container-signup{
     margin: 0 auto; /* Coloca o item no centro horizontal*/
     max-width: 400px;
     min-height: 100%; /* Utiliza a altura completa da tela para colocar no centro */
     display: flex;
     align-items: center; /* Coloca o item no centro vertical (so funciona com o display:flex */
+}
+
+.bloco p{
+    text-align: center;
+    color: #999999;
+    font-weight: bold;
+}
+
+.entrar2{
+    background-color: #3b9ffd;
+    border: none;
+    border-radius: 3px;
+    margin: 15px 30px;
+    padding: 8px;
+    color: white;
+    font-weight: bold;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.divisor{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px 0px;
+}
+
+.linha{
+    height: 1px;
+    background-color: #e6e6e6;
+    width: 37%;
+}
+
+.ou{
+    color: #999999;
+    font-weight: bold;
+    margin: 0px 5px;
+}
+
+/* Responsividade */
+
+@media (max-width: 850px){
+    .left{
+        display: none;
+    }
+
+    .container{
+        width: 70%;
+    }
+
+    .right{
+        padding-left: 0;
+    }
+}
+
+@media (max-width: 400px){
+    .container-signup{
+        align-items: normal;
+    }
+    
+    #wrapper-signup{
+        height: 750px;
+    }
 }
